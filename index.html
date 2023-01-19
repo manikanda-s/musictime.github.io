@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Time - Manikandan Selvam</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="beat-box">
+            <div class="keys-panel" id="keys">
+                <button class="key" id="q" onclick="play(1);"></button>
+                <button class="key" id="w" onclick="play(2);"></button>
+                <button class="key" id="e" onclick="play(3);"></button>
+                <button class="key" id="a" onclick="play(4);"></button>
+                <button class="key" id="s" onclick="play(5);"></button>
+                <button class="key" id="d" onclick="play(6);"></button>
+                <button class="key" id="z" onclick="play(7);"></button>
+                <button class="key" id="x" onclick="play(8);"></button>
+                <button class="key" id="c" onclick="play(9);"></button>
+            </div>
+
+            <div class="controller">
+                <div class="sound-menu"> 
+                    <button type="button" onclick="changeSound(0)" id="drum">Drum</button>
+                    <button type="button" onclick="changeSound(1)" id="piano">Piano</button>
+                    <button type="button" onclick="changeSound(2)" id="guitar">Guitar</button>
+                    <button type="button" onclick="changeSound(3)" id="violin">Violin</button>
+                    <button type="button" onclick="changeSound(4)" id="saxophone">Saxophone</button>
+                    <button type="button" onclick="changeSound(5)" id="flute">Flute</button>
+                    <button type="button" onclick="changeSound(6)" id="cello">Cello</button>
+                    <button type="button" onclick="changeSound(7)" id="trumpet">Trumpet</button>
+                </div>
+
+                <div class="about">
+                    <button type="button" id="myBtn">About</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p class="title">Design and Developed by</p>
+          <p class="name">Manikandan Selvam</p>
+          <p class="thank">Thanks for visiting my website.</p>
+          <p class="msg">I Spent three days completing this small project. I hope I did well. please give any suggestions and feedback about the project. that will help me lot.</p>
+          <a href="mailto:manikandan-selvam@outlook.com">E-mail</a>
+          <a href="https://www.linkedin.com/in/manikandan-s-01a7511a9/">LinkedIn</a>
+        </div>
+      
+      </div>
+
+
+    <script src="/app.js"></script>
+</body>
+</html>
