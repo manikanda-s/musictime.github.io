@@ -51,7 +51,10 @@ function changeSound(n){
 function tell(){
     alert("Press 'Q'");
 }
-// setTimeout(tell, 5000);
+
+if (window.innerWidth >= 800) {
+  setTimeout(tell, 5000);
+}
 
 
 var modal = document.getElementById("myModal");
