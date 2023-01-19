@@ -149,19 +149,34 @@ body {
         flex-direction: row;
         width: 100%;
         height: 100px;
-        overflow: scroll;
+    }
+    
+    .sound-menu {
+        width: 60%;
+        overflow-y: scroll;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0.5em;
+    }
+    ::-webkit-scrollbar-track-piece {
+        background: #888
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #eee
     }
     
     .about {
         width: 70px;
-        height: 30px;
+        height: 40px;
         position: sticky;
         top: 0;
     }
 
     .about button {
-        font-size: 14px;
-        padding: 2px;
+        width: 70px;
+        height: 40px;
+        font-size: 15px;
     }
 }
 
