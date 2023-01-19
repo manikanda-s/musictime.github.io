@@ -10,7 +10,7 @@ instrumentNameActive(instrumentId);
 function play(n){
     // audio.src = `/sounds/drum/drum${n}.mp3`;     // /sounds/drum/drum1.mp3
     // audio.src = `/sounds/piano/key0${n}.mp3`;    // /sounds/piano/key01.mp3
-    audio.src = `/sounds/${sounds[instrumentId] + n}.mp3`;
+    audio.src = `./sounds/${sounds[instrumentId] + n}.mp3`;
     audio.currentTime = 0;
     audio.play();    
     k = keyId[n-1];
